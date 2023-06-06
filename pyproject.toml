@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pymonobank"
+version = "1.0.3"
+description = "Python client for Monobank API"
+authors = ["Alex Stulen <ookno16@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+certifi = "2023.5.7"
+charset-normalizer = "3.1.0"
+idna = "3.4"
+requests = "2.31.0"
+urllib3 = "2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
