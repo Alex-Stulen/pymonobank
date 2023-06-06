@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "pymonobank"
-version = "1.0.3"
+version = "1.0.4"
 description = "Python client for Monobank API"
 authors = ["Alex Stulen <ookno16@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/Alex-Stulen/pymonobank"
 
 [tool.poetry.dependencies]
 python = "^3.9"
